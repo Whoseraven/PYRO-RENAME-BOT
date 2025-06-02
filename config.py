@@ -28,15 +28,15 @@ class Config(object):
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
    
     # database config
-    DB_NAME = os.environ.get("DB_NAME","pyro-botz")     
-    DB_URL  = os.environ.get("DB_URL","")
+    DB_NAME = os.environ.get("DB_NAME","sumitsajwan135")     
+    DB_URL  = os.environ.get("DB_URL","mongodb+srv://sumitsajwan135:gameno01@cluster0.ja0i0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"")
  
     # other configs
     BOT_UPTIME  = time.time()
-    START_PIC   = os.environ.get("START_PIC", "")
-    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '').split()]
-    FORCE_SUB   = os.environ.get("FORCE_SUB", "") 
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL"))
+    START_PIC   = os.environ.get("START_PIC", "https://te.legra.ph/file/06923cc70e2ecedcb2c8d-dd1ffb11c5eab68b07.jpg")
+    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '7577853954').split()]
+    FORCE_SUB   = os.environ.get("FORCE_SUB", "kirito_Bots") 
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL" "-1002468277277"))
     MAX_CONCURRENT_TRANSMISSIONS = int(os.environ.get("MAX_CONCURRENT_TRANSMISSIONS", "2")) # Set the maximum amount of concurrent transmissions (uploads & downloads).
     
     # wes response configuration     
@@ -83,14 +83,7 @@ Exᴀᴍᴩʟᴇ:- /set_caption 📕 Fɪʟᴇ Nᴀᴍᴇ: {filename}
 
 #⚠️ Dᴏɴ'ᴛ Rᴇᴍᴏᴠᴇ Oᴜʀ Cʀᴇᴅɪᴛꜱ @ᴩyʀᴏ_ʙᴏᴛᴢ🙏🥲
     DEV_TXT = """<b><u>Sᴩᴇᴄɪᴀʟ Tʜᴀɴᴋꜱ & Dᴇᴠᴇʟᴏᴩᴇʀꜱ</b></u>
-» 𝗦𝗢𝗨𝗥𝗖𝗘 𝗖𝗢𝗗𝗘 : <a href=https://github.com/TEAM-PYRO-BOTZ/PYRO-RENAME-BOT>𝐏𝐘𝐑𝐎 𝐑𝐄𝐍𝐀𝐌𝐄 𝐁𝐎𝐓</a>
-» 𝗛𝗢𝗪 𝗧𝗢 𝗗𝗘𝗣𝗟𝗢𝗬 : <a href=https://youtu.be/GfulqsSnTv4>MᴏTᴇᴄʜ Yᴛ</a>
-• ❣️ <a href=https://github.com/lntechnical2>𝗟𝗡 𝗧𝗘𝗖𝗛𝗡𝗜𝗖</a>
-• ❣️ <a href=https://t.me/Mhd_rzn>𝗠𝗵𝗱_𝗿𝘇𝗻</a>
-• ❣️ <a href=https://youtu.be/GfulqsSnTv4>𝗠𝗼𝗧𝗲𝗰𝗵 𝗬𝗧</a>
-• ❣️ <a href=https://t.me/mr_MKN>𝗠𝗿.𝗠𝗞𝗡 𝗧𝗚</a>
-• ❣️ <a href=https://t.me/GitHub_noob>𝗚𝗶𝘁𝗛𝘂𝗯 𝗡𝗢𝗢𝗕</a>
-• ❣️ <a href=https://t.me/about_jeol>𝗝𝗲𝗼𝗹 𝗣𝗮𝘂𝗹</a> """
+» 𝗦𝗢𝗨𝗥𝗖𝗘 𝗖𝗢𝗗𝗘 : <a href=https://t.me/whoseKirito_support>𝐑𝐄𝐍𝐀𝐌𝐄 𝐁𝐎𝐓</a> """
 
     PROGRESS_BAR = """<b>\n
 ╭━━━━❰ᴘʀᴏɢʀᴇss ʙᴀʀ❱━➣
